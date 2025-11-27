@@ -1,0 +1,32 @@
+# PythonStark Requirements
+# Core dependencies for ZK-STARK implementation
+
+# Numerical computing
+numpy>=1.21.0
+
+# JIT compilation for performance
+numba>=0.56.0
+
+# System monitoring (for benchmarks)
+psutil>=5.8.0
+
+# Optional: Improved hashing performance
+# Uncomment for better performance if available
+# blake3>=0.3.0
+
+# Standard library dependencies (no installation needed):
+# - math
+# - time
+# - os
+# - sys
+# - threading
+# - gc
+# - json
+# - traceback
+# - secrets
+# - hashlib
+# - hmac
+# - struct
+# - typing
+# - dataclasses
+# - concurrent.futures

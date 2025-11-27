@@ -1,0 +1,260 @@
+# PythonStark License v1.0 (Non-Commercial)
+
+Copyright (c) 2025 SherifSystems. All rights reserved.
+
+## GRANT OF LICENSE
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to use, copy, modify, and distribute the Software for **non-commercial purposes only**, subject to the following conditions:
+
+### 1. PERMITTED USES
+
+The Software may be used for:
+- Educational purposes and academic research
+- Personal learning and experimentation
+- Open-source research projects
+- Non-commercial cryptographic experimentation
+- Academic publications and presentations
+
+### 2. PROHIBITED USES
+
+The Software may NOT be used for:
+- Any commercial purposes or commercial products
+- Production systems or security-critical applications
+- Financial services, cryptocurrency, or blockchain applications
+- Any service offered for monetary compensation
+- Integration into commercial products or services
+- Government or military applications without explicit written permission
+
+### 3. ATTRIBUTION REQUIREMENTS
+
+All copies, modifications, and distributions of the Software must:
+- Include this complete license notice
+- Include the copyright notice: "Copyright (c) 2024-2025 SherifSystems"
+- Clearly attribute the original work to SherifSystems and the PythonStark project
+- Include a prominent link to the original repository: https://github.com/SherifSystems/Pythonstark
+- Maintain all copyright, patent, trademark, and attribution notices
+
+### 4. MODIFICATIONS AND DERIVATIVES
+
+- Modified versions must be clearly marked as modified
+- Derivative works must use a different name than "PythonStark"
+- All derivative works remain subject to this non-commercial license
+- You must document all significant changes made to the Software
+
+### 5. DISTRIBUTION REQUIREMENTS
+
+When distributing the Software or derivative works:
+- Include this complete LICENSE file
+- Include SECURITY.md and all disclaimer notices
+- Clearly indicate if modifications were made
+- Do not misrepresent the origin of the Software
+- Do not imply endorsement by SherifSystems without permission
+
+### 6. COMMERCIAL LICENSING
+
+For commercial use, including but not limited to:
+- Integration into commercial products
+- Offering services based on this Software
+- Use in for-profit organizations
+- Commercial research and development
+
+Contact SherifSystems for commercial licensing options:
+- Email: sherifsystems@proton.me
+- GitHub: https://github.com/SherifSystems
+
+## ADDITIONAL LEGAL TERMS
+
+### 7. EXPORT COMPLIANCE
+
+This Software contains cryptographic implementations and may be subject to export control laws and regulations, including but not limited to:
+- U.S. Export Administration Regulations (EAR)
+- International Traffic in Arms Regulations (ITAR)
+- EU dual-use regulations
+- Local export control laws
+
+**YOU ARE SOLELY RESPONSIBLE FOR**:
+- Compliance with all applicable export control laws
+- Obtaining necessary export licenses or authorizations
+- Compliance with import and use restrictions in your jurisdiction
+- Determining whether use is permitted in your country
+
+The authors make no representations regarding export compliance and disclaim all responsibility for export control violations.
+
+### 8. CRYPTOGRAPHIC SOFTWARE NOTICE
+
+**IMPORTANT CRYPTOGRAPHIC NOTICE**:
+
+This Software implements cryptographic algorithms and zero-knowledge proof systems. Users must understand:
+
+- Some countries restrict or prohibit import, possession, use, or export of cryptographic software
+- Some countries require registration or licensing for cryptographic software
+- Users are responsible for understanding and complying with local cryptographic regulations
+- The Software has NOT been submitted to any government authority for approval
+
+**WARNING**: Cryptographic regulations vary significantly by jurisdiction. Consult legal counsel in your jurisdiction before using this Software.
+
+### 9. NO PATENT GRANT
+
+This license does NOT grant any rights under patents, whether express or implied:
+- No patent license is granted by this license
+- Users are responsible for obtaining necessary patent licenses
+- The Software may practice techniques covered by patents
+- Commercial use may require patent licenses from third parties
+
+SherifSystems makes no representations regarding patent rights and disclaims all liability for patent infringement.
+
+### 10. TRADEMARK NOTICE
+
+"PythonStark" and "SherifSystems" are trademarks of SherifSystems:
+- You may not use these trademarks without explicit written permission
+- Modified versions must not use the "PythonStark" name
+- Attribution must not imply endorsement by SherifSystems
+- Trademark rights are specifically reserved and not granted by this license
+
+### 11. NO SECURITY GUARANTEES
+
+**CRITICAL SECURITY DISCLAIMERS**:
+
+This Software is provided for EDUCATIONAL AND RESEARCH PURPOSES ONLY:
+
+- **NOT PRODUCTION-READY**: Not suitable for production systems
+- **NOT AUDITED**: No formal security audit has been performed
+- **NOT CRYPTOGRAPHICALLY SECURE**: No security guarantees are provided
+- **EXPERIMENTAL**: Implementations are experimental and unverified
+- **ACADEMIC USE ONLY**: Intended for learning and research
+
+**KNOWN LIMITATIONS**:
+- No constant-time operations (vulnerable to timing attacks)
+- No protection against side-channel attacks
+- Educational-grade randomness only
+- Not hardened against cryptanalytic attacks
+- May contain undiscovered vulnerabilities
+
+**YOU ACKNOWLEDGE**:
+- This Software has NO security guarantees whatsoever
+- Use in security-critical applications is EXPLICITLY PROHIBITED
+- Authors provide NO warranty of cryptographic correctness
+- You assume ALL risks from security vulnerabilities
+
+### 12. PROHIBITED APPLICATIONS
+
+The Software must NEVER be used for:
+- Cryptocurrency wallets or key management
+- Financial transaction systems
+- Authentication or access control systems
+- Privacy-critical applications
+- Healthcare or medical record systems
+- Critical infrastructure
+- Any application where failure could cause harm
+
+## WARRANTY DISCLAIMER
+
+**THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO:**
+
+- WARRANTIES OF MERCHANTABILITY
+- WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE
+- WARRANTIES OF NON-INFRINGEMENT
+- WARRANTIES OF SECURITY OR CRYPTOGRAPHIC CORRECTNESS
+- WARRANTIES OF ERROR-FREE OPERATION
+- WARRANTIES OF ACCURACY OR COMPLETENESS
+
+**THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE SOFTWARE IS WITH YOU.**
+
+Should the Software prove defective, YOU assume the cost of all necessary servicing, repair, or correction.
+
+## LIMITATION OF LIABILITY
+
+**TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW:**
+
+**IN NO EVENT SHALL THE AUTHORS, COPYRIGHT HOLDERS, OR SHERIFSYSTEMS BE LIABLE FOR ANY:**
+
+1. **Direct Damages**: Loss of profits, revenue, data, or use
+2. **Indirect Damages**: Any consequential, incidental, or special damages
+3. **Security Breaches**: Cryptographic failures or vulnerabilities
+4. **Data Loss**: Loss or corruption of data
+5. **System Failures**: Software errors or system crashes
+6. **Legal Issues**: Export violations, patent infringement, or regulatory non-compliance
+7. **Financial Loss**: Loss of funds, cryptocurrency, or financial instruments
+8. **Personal Injury**: Physical or psychological harm
+9. **Business Interruption**: Lost opportunities or business damage
+10. **Third-Party Claims**: Claims by third parties arising from your use
+
+**THIS APPLIES EVEN IF:**
+- Authors were advised of the possibility of such damages
+- The damages were foreseeable
+- Liability is based on contract, tort, negligence, strict liability, or any other legal theory
+
+**YOUR SOLE REMEDY IS TO STOP USING THE SOFTWARE.**
+
+## INDEMNIFICATION
+
+You agree to INDEMNIFY, DEFEND, AND HOLD HARMLESS SherifSystems, its authors, contributors, and affiliates from and against ANY AND ALL:
+
+- Claims, damages, losses, liabilities, costs, and expenses (including attorney's fees)
+- Arising from or related to your use, modification, or distribution of the Software
+- Resulting from your violation of this license or applicable laws
+- Related to security breaches, cryptographic failures, or system vulnerabilities
+- Arising from export control violations or regulatory non-compliance
+
+## TERMINATION
+
+This license automatically terminates if you:
+- Violate any term of this license
+- Use the Software for commercial purposes without authorization
+- Remove or modify attribution notices
+- Misrepresent the origin or authorship of the Software
+- Use the Software in prohibited applications
+
+Upon termination:
+- All rights granted under this license immediately cease
+- You must destroy all copies of the Software in your possession
+- Sections 9-16 survive termination
+
+## GOVERNING LAW AND JURISDICTION
+
+This license shall be governed by and construed in accordance with the laws of the jurisdiction where SherifSystems is located, without regard to conflict of law principles.
+
+Any disputes arising from this license shall be resolved in the courts of SherifSystems' jurisdiction, and you consent to the exclusive jurisdiction of such courts.
+
+## SEVERABILITY
+
+If any provision of this license is held to be unenforceable or invalid, that provision shall be enforced to the maximum extent possible, and the remaining provisions shall remain in full force and effect.
+
+## ENTIRE AGREEMENT
+
+This license constitutes the entire agreement between you and SherifSystems regarding the Software and supersedes all prior agreements and understandings, whether written or oral.
+
+## NO WAIVER
+
+Failure to enforce any provision of this license does not constitute a waiver of that provision or any other provision.
+
+## ACCEPTANCE
+
+**BY USING, COPYING, MODIFYING, OR DISTRIBUTING THE SOFTWARE, YOU ACKNOWLEDGE THAT:**
+
+1. You have read and understood this entire license
+2. You agree to be bound by all terms and conditions
+3. You understand the Software is experimental and not secure
+4. You accept all risks associated with using the Software
+5. You will not use the Software for prohibited purposes
+6. You are responsible for compliance with all applicable laws
+
+**IF YOU DO NOT AGREE TO THESE TERMS, DO NOT USE THE SOFTWARE.**
+
+---
+
+## CONTACT INFORMATION
+
+For questions regarding this license or commercial licensing inquiries:
+
+**SherifSystems**
+- GitHub: https://github.com/SherifSystems
+- Repository: https://github.com/SherifSystems/Pythonstark
+- Email: sherifsystems@proton.me
+
+---
+
+**END OF LICENSE**
+
+Last Updated: November 27, 2025
+Version: 1.0
