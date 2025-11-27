@@ -1,5 +1,10 @@
 # PythonStark
 
+**Copyright (c) 2025 SherifSystems**  
+*Educational Implementation - Not Professional Cryptographic Software*
+
+---
+
 **Pure Python ZK-STARK Implementation for Educational Use**
 
 [![License](https://img.shields.io/badge/License-Non--Commercial-blue.svg)](LICENSE)

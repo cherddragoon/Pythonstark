@@ -1,5 +1,10 @@
 # Security Policy
 
+**Copyright (c) 2025 SherifSystems**  
+*Educational Implementation - Not Professional Cryptographic Software*
+
+---
+
 ## ⚠️ CRITICAL SECURITY WARNING
 
 **PythonStark is NOT cryptographically audited and is NOT secure for production use.**
